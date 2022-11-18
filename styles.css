@@ -1,17 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
+}
+
+/*Universal Colours*/
+header,
+footer {
+  background-color: #1f2937;
+}
+
+main h2, 
+.card p, 
+.quote {
+  color: #1f2937;
 }
 
 /* HEADER */
 header {
-    background-color: #1f2937;
     padding: 1em 13em;
 }
 
@@ -98,7 +107,6 @@ main {
 main h2 {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
 }
 
 .card-container {
@@ -107,6 +115,7 @@ main h2 {
     align-items: center;
     flex-wrap: wrap;
     margin: 3em 0 6em 0;
+    font-size: 18px;
 }
 
 .card {
@@ -138,13 +147,11 @@ main h2 {
     align-self: flex-end;
     font-weight: bolder;
     font-size: 24px;
-    color: #1f2937;
 }
 
 .quote em {
     font-size: 36px;
     font-weight: 100;
-    color: #1f2937;
 }
 
 /* SIGN UP */
@@ -176,7 +183,6 @@ strong {
 
 /* FOOTER */
 footer {
-    background-color: #1f2937;
     color: #FFF;
     display: flex;
     justify-content: center;
